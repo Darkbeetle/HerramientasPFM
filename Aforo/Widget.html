@@ -1,0 +1,26 @@
+<div>
+    <h3> Calculadora de aforo:</h3>
+    <br>
+      <div id="caja">
+        <div id="info" class="esriSimpleSlider">
+          <p>Pinta en el mapa el poligono para calcular su aforo.</p>
+          <br>
+            <p>Distancia mínima personal (Metros):</p><input id="distancia"></input>
+          <br>
+          <br>
+          
+          <span class="label">ÁREA:</span> <span id="area"></span>
+          <br>
+          <span class="label">AFORO: </span><span id="aforo"></span>
+          
+          <br>
+          <br>
+    
+          <button id="calculo" data-dojo-attach-event="onclick:calculoaforo" >Calcular</button>
+          <br>
+          <p> info: Limpie el mapa si vas a dibujar de nuevo</p>
+          <button data-dojo-attach-event="onclick:limpiar">Limpiar</button>
+        </div>
+      </div>
+      
+</div>

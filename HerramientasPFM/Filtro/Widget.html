@@ -1,0 +1,44 @@
+<div class="Base">
+    <div>
+        <h3 id="titulointeres">Filtro por puntos de interés:</h3>
+        <br>
+        
+        <select id="interes">
+            <option value = "1">Fuentes públicas</option>
+            <option value = "2">Oficinas de turismo</option>
+            <option value = "3">Bancos</option>
+            <option value = "4">Oficinas de cambio de moneda extranjera</option>
+            <option value = "5">Farmacias</option>
+            <option value = "8">Centros de salud</option>
+            <option value = "9">Baños públicos</option>
+            <option value = "10">Aparcabicis</option>
+            <option value = "12">Papeleras y contenedores</option>
+        </select> 
+        
+        <button class="boton" data-dojo-attach-event="onclick:FiltroInteres" >Filtrar</button>
+    </div>
+    <div>
+        <h3 id="titulocio">Filtro por ocio:</h3>
+        <br>
+        <select id="ocio">
+            <option value = "1">Cines</option>
+            <option value = "2">Teatros</option>
+            <option value = "3">Tablaos</option>
+            <option value = "4">Librerías</option>
+            <option value = "5">Parques y jaridnes</option>
+            <option value = "6">Palacios y monumentos</option>
+            <option value = "7">Museos</option>
+            <option value = "8">Mercados y mercadillos</option>
+            <option value = "9">Cementerios</option>
+            <option value = "10">Iglesias y parroquias católicas</option>
+            <option value = "11">Templos religiosos no católicos</option>
+            <option value = "12">Restaurantes</option>
+            <option value = "13">Bares y tabernas</option>
+        </select>
+        <button class="boton"data-dojo-attach-event="onclick:FiltroOcio">Filtrar</button> 
+    </div>
+    <br>
+    <div id="cajaboton">
+        <button data-dojo-attach-event="onclick:Borrar">Restaurar Filtros</button>
+    </div>
+</div>

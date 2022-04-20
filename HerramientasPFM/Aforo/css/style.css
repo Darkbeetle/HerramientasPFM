@@ -1,0 +1,16 @@
+.esriSimpleSlider {
+  position:relative;
+  text-align: center;
+  border: 2px solid #57585A;
+  background-color: rgb(164, 240, 174);
+  color: #4C4C4C;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
